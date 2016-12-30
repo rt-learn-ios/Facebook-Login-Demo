@@ -12,6 +12,10 @@
 		F12B1F201E16756800758AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12B1F1E1E16756800758AE8 /* Main.storyboard */; };
 		F12B1F221E16756800758AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12B1F211E16756800758AE8 /* Assets.xcassets */; };
 		F12B1F251E16756800758AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12B1F231E16756800758AE8 /* LaunchScreen.storyboard */; };
+		F12B1F311E16770B00758AE8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B1F2D1E16770B00758AE8 /* Bolts.framework */; };
+		F12B1F321E16770B00758AE8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B1F2E1E16770B00758AE8 /* FBSDKCoreKit.framework */; };
+		F12B1F331E16770B00758AE8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B1F2F1E16770B00758AE8 /* FBSDKLoginKit.framework */; };
+		F12B1F341E16770B00758AE8 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B1F301E16770B00758AE8 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		F12B1F211E16756800758AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12B1F241E16756800758AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12B1F261E16756800758AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12B1F2D1E16770B00758AE8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Documents/FacebookSDKs-iOS-4.18.0/Bolts.framework"; sourceTree = "<group>"; };
+		F12B1F2E1E16770B00758AE8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		F12B1F2F1E16770B00758AE8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		F12B1F301E16770B00758AE8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		F12B1F351E16787600758AE8 /* Facebook Login Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook Login Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F12B1F381E167A5C00758AE8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12B1F311E16770B00758AE8 /* Bolts.framework in Frameworks */,
+				F12B1F321E16770B00758AE8 /* FBSDKCoreKit.framework in Frameworks */,
+				F12B1F331E16770B00758AE8 /* FBSDKLoginKit.framework in Frameworks */,
+				F12B1F341E16770B00758AE8 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +52,11 @@
 		F12B1F0E1E16756800758AE8 = {
 			isa = PBXGroup;
 			children = (
+				F12B1F381E167A5C00758AE8 /* README.md */,
 				F12B1F191E16756800758AE8 /* Facebook Login Demo */,
+				F12B1F2C1E1676C200758AE8 /* Frameworks */,
 				F12B1F181E16756800758AE8 /* Products */,
+				F12B1F351E16787600758AE8 /* Facebook Login Demo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +79,17 @@
 				F12B1F261E16756800758AE8 /* Info.plist */,
 			);
 			path = "Facebook Login Demo";
+			sourceTree = "<group>";
+		};
+		F12B1F2C1E1676C200758AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F12B1F2D1E16770B00758AE8 /* Bolts.framework */,
+				F12B1F2E1E16770B00758AE8 /* FBSDKCoreKit.framework */,
+				F12B1F2F1E16770B00758AE8 /* FBSDKLoginKit.framework */,
+				F12B1F301E16770B00758AE8 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +124,8 @@
 				TargetAttributes = {
 					F12B1F161E16756800758AE8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y23L5WA5S;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,10 +288,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6Y23L5WA5S;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = "Facebook Login Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ryetech.Facebook-Login-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook Login Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +306,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6Y23L5WA5S;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = "Facebook Login Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ryetech.Facebook-Login-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook Login Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
